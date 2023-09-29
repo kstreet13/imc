@@ -1,0 +1,69 @@
+
+Dr. Emamaullee
+
+Meeting 11-11
+-------------
+R01 application
+She has K thru NCI(?)
+Funding for diverse investigators
+Maybe better chance of funding
+Transplant immunologist
+Study immune rejection of implants
+DDK funds most kidney research
+NIAD thought NCI was better
+She frames liver transplant as treatment option for liver cancer
+IMC is cytof on tissue
+25 marker panel (could have done more) focused on immune and structure (not so much cancer)
+Can cluster cell types and visualize on cell mask
+Find cell types more/less common in acute rejection/chronic rejection than no rejection
+CHLA does 5-year follow-up biopsy to check for signs of rejection
+Interested in predicting rejection based on blood-based assays
+Aim 1: have 60 patients w/at least 3 biopsies
+Some with single/multiple rejection episodes
+Time-series analysis
+Aim 2: expand blood analysis at multiple timepoints after biopsy
+Multi-comic biomarker panel (3x cytof + IMC baseline)
+
+IMC analysis - they published 11 marker panel
+Image preprocessing (segmentation) is difficult, done by clinical cohort
+Lots of fiddling with parameters
+They're gonna write a methods paper for cleaning IMC method + python package
+Sarah has a stats degree
+
+Currently have data for 3 projects
+
+
+IMC/CyTOF meeting 11/11
+-----------------------
+Juliet, Ariana, Sarah
+IMC/cytof cleaning
+Found a method with Matlab GUI (Bodenmiller?)
+3 steps: cross-talk, noise, aggregates
+Visualization to ensure you aren't removing signal
+MCD (OMITIFF?) file, preprocessing requires TIFF image (python package for this)
+Separate TIFF file for each marker
+There is some normalization, then clustering
+Supervised clustering (gating) to get large cell groups
+Unsupervised clustering on groups to get sub clusters
+
+
+Meeting 12/8/22
+---------------
+Scorpius for IMC data?
+3 groups of patients: No rejection, acute rejection, chronic rejection
+n=85
+30 immune clusters + 8 non-immune
+paper: Pseudotime subdivided into "pseudo-stage" groups
+Want to see trajectories in different T-cell groups (CD4+, CD8+, ...)
+Rejection is surprisingly consistent across patients
+
+
+
+
+
+
+
+
+
+
+
