@@ -58,6 +58,18 @@ Want to see trajectories in different T-cell groups (CD4+, CD8+, ...)
 Rejection is surprisingly consistent across patients
 
 
+2024-02-16
+----------
+Spatial analysis of IMC data
+Lu, Juliet, Sarah
+Lu explained spatial model
+Sarah: makes sense to fit common model across samples
+common signal may be immune/non-immune
+Could fit signals at diff smoothness scales
+Local correlation of immune cell type-ness
+Immune cells more tightly packed in TCMR?
+Differential local correlation between groups??
+
 
 
 
