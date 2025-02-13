@@ -71,7 +71,24 @@ Immune cells more tightly packed in TCMR?
 Differential local correlation between groups??
 
 
+------------------------------------------------------
 
+
+2025-02-11
+----------
+Arianna Barbetta, new IMC project
+multiple data layers
+IMC, CyTOF
+only 10 patients for CyTOF, de-emphasized
+30+32 for IMC, 131 ROIs
+R objects labelled
+working on correlation network analysis
+two different exhausted CD4+ T cell populations (HLADR+/-), different distribution between TCMR and Rejection
+Same for CD8+ T cells
+can we infer the origins of those cell populations?
+marker distribution is different
+X41BB is another marker for this difference, only expressed in HLADR- 
+walked through my old IMC trajectory code, sent her an updated version
 
 
 
